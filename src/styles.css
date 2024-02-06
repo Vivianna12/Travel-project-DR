@@ -62,6 +62,9 @@ main {
   width: 100%;
   aspect-ratio: 1 / 1;
 }
+.instagram-embeds {
+  margin: 30px 0;
+}
 section {
   max-width: 100%;
   margin: 0 auto;

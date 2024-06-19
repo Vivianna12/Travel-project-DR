@@ -212,3 +212,77 @@ footer li {
     aspect-ratio: 16/9;
   }
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  header h1 {
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  header h2 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  .button {
+    padding: 8px;
+    margin: 10px;
+    font-size: 10px;
+    border-radius: 20px;
+  }
+  .baseball {
+    width: 335px;
+  }
+  .dancers {
+    width: 335px;
+  }
+  main h3 {
+    font-size: 15px;
+  }
+  main h2 {
+    font-size: 12px;
+  }
+  main p {
+    font-size: 12px;
+  }
+
+  iframe {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  section h2 {
+    font-size: 20px;
+  }
+  section h3 {
+    font-size: 12px;
+  }
+  section img {
+    width: 300px;
+  }
+
+  .btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #1b4198;
+    text-decoration: none;
+  }
+}
